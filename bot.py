@@ -6,7 +6,7 @@ def welcome(message):
     # membalas pesan
     # send="Halo, Selamat Menikmati Layanan Kami"+"\n"
     # +"Command: [Nama Metro]_[Password]"+"\n"+"\n"+"Ex: ME-D5-KD_passwordku1234"+"\n"
-    send="Halo, Selamat Menggunakan Layanan Bot Network"+"\n"+"\n"+"Fitur 1: /portidle [Nama Metro]_[Password]"+"\n"+"Ex: /portidle ME-D5-KD_passwordku1234"+"\n"+"\n"+"Fitur 2: /zoc [Nama Metro]_[Password]_[command]"+"\n"+"Ex: /zoc ME-D5-KD_passwordku1234_disp ver"+"\n"
+    send="Selamat datang di layanan pulsa kami"+"\n"
     bot.reply_to(message,send)
 
 @bot.message_handler(commands=['help'])
